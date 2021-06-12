@@ -11,13 +11,13 @@ function App() {
       <h1>Vending Machine</h1>
       <BrowserRouter>
         <NavBar />        
-        <Route exact path="chips">
+        <Route exact path="/chips">
           <Chips />
         </Route>
-        <Route exact path="candy">
+        <Route exact path="/candy">
           <Candy />
         </Route>
-        <Route exact path="soda">
+        <Route exact path="/soda">
           <Soda />
         </Route>
       </BrowserRouter>
